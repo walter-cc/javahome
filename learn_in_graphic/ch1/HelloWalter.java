@@ -1,6 +1,8 @@
 /*
 # 此範例執行步驟
 
+# 在「命令提示元(cmd)」裡面執行
+
 1) C:\D_drive\6_javahome>javac HelloWalter.java     -> 產生 "HelloWalter.class"
 
 2) C:\D_drive\6_javahome>java HelloWalter           ## 不用加副檔名
@@ -77,6 +79,8 @@ C:\D_drive\6_javahome>javac HelloWalter.java
 
 C:\D_drive\6_javahome>java HelloWalter
 Hello Walter
+HelloWalter
+結束
 
 ===============================
 # 參考文件 :
@@ -85,10 +89,13 @@ Hello Walter
 */
 
 
-class HelloWalter   // 檔案名稱必須與類別名稱的大小寫完全相同，否則會發生錯誤 !!!!!!! (重要)
+class HelloWalter   // 「檔案名稱」必須與「類別名稱」的大小寫完全相同，否則會發生錯誤 !!!!!!! (重要)
 {
     public static void main(String[] args)
     {
         System.out.println("Hello Walter");     // println() : 讓()當中的字串顯示在畫面上並換行。
+        System.out.print("Hello");
+        System.out.print("Walter\n");
+        System.out.print("結束");
     }
 }
