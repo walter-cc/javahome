@@ -8,7 +8,7 @@
 2) C:\D_drive\6_javahome>java HelloWalter           ## 不用加副檔名
 
 ===============================
-# 執行結果 : 
+# 執行結果 :
 
 C:\D_drive\6_javahome>javac Main.java
 
@@ -32,7 +32,7 @@ class Main   // 「檔案名稱」必須與「類別名稱」的大小寫完全相同，否則會發生錯誤 !
     public static void main(String[] args)
     {
         int i;
-        
+
         if(args.length == 0)
         {
             System.out.println("沒有命令列參數。");

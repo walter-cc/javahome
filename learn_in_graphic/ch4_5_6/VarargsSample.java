@@ -8,7 +8,7 @@
 2) C:\D_drive\6_javahome>java HelloWalter           ## ¤£¥Î¥[°ÆÀÉ¦W
 
 ===============================
-# °õ¦æµ²ªG : 
+# °õ¦æµ²ªG :
 
 C:\D_drive\6_javahome>javac VarargsSample.java
 
@@ -31,21 +31,22 @@ class VarargsSample   // ¡uÀÉ®×¦WºÙ¡v¥²¶·»P¡uÃþ§O¦WºÙ¡vªº¤j¤p¼g§¹¥þ¬Û¦P¡A§_«h·|µ
     int getMax(int... nums)
     {
         int max = 0;
+
         for(int i = 0; i < nums.length; i++)
         {
             if(i == 0)
             {
                 max = nums[0];
             }
-            
+
             if(max < nums[i])
             {
                 max = nums[i];
             }
         }
         return max;
-    }    
-    
+    }
+
     public static void main(String[] args)
     {
         VarargsSample vt = new VarargsSample();

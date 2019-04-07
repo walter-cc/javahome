@@ -8,7 +8,7 @@
 2) C:\D_drive\6_javahome>java HelloWalter           ## ¤£¥Î¥[°ÆÀÉ¦W
 
 ===============================
-# °õ¦æµ²ªG : 
+# °õ¦æµ²ªG :
 
 C:\D_drive\6_javahome>javac Calculation.java        -> ²£¥Í "Calculation.class" + "Calc.class"   !!!!!!! (­«­n)
 
@@ -38,8 +38,8 @@ class Calculation   // ¡uÀÉ®×¦WºÙ¡v¥²¶·»P¡uÃþ§O¦WºÙ¡vªº¤j¤p¼g§¹¥þ¬Û¦P¡A§_«h·|µo¥
         Calc calc = new Calc();
         c = calc.add(8,9);
         System.out.println("8 + 9 = " + c);
-    }   
-    
+    }
+
     public static void main(String[] args)
     {
         disp();
